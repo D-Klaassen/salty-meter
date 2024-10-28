@@ -1,10 +1,17 @@
-export default function Welcome({ auth, laravelVersion, phpVersion }) {
+import { Head } from '@inertiajs/react';
+import Header from "@/Components/Header/Header.jsx";
+
+export default function Welcome({ auth }) {
 
     return (
         <>
-            <div>
-                test
-            </div>
+            <Head title={'Welcome'}></Head>
+            <Header >
+                <div className={'welcome'}>
+                    <div>test</div>
+                    <div>test2</div>
+                </div>
+            </Header>
         </>
     );
 }

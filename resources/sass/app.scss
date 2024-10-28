@@ -1,0 +1,9 @@
+
+// Import all components styling
+@use "../js/Components/**/*.scss";
+
+// Import all common styling
+@use "common/*.scss";
+
+@use "pages/*.scss";
+//@use "layouts/*.scss";
